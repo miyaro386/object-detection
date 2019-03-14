@@ -1,7 +1,7 @@
 # Object detection filter for LSUN
 
 This project is for [Shape-conditioned Image Generation by Learning Latent Appearance Representation from Unpaired Data](https://arxiv.org/abs/1811.11991).  
-
+Training data are collected from LSUN by filtering of this project.  
 
 ## Usage
 
@@ -23,7 +23,7 @@ This project is for [Shape-conditioned Image Generation by Learning Latent Appea
     |   ・
     ```
 
-1. Install requires following [tensorflow object detection api](https://github.com/tensorflow/models/tree/master/research/object_detection")
+1. Install dependencies following [tensorflow object detection api](https://github.com/tensorflow/models/tree/master/research/object_detection")
     or run `docker-run.sh`
     
     I uploaded my docker image to DockerHub and recommend to use Docker.
