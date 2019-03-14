@@ -9,6 +9,20 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="datability (project level)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/Projects/object_detection" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="merkatz">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/Projects/object_detection" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
     <option name="myAutoUpload" value="ALWAYS" />
   </component>

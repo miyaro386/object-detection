@@ -2,8 +2,16 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="e9b6a1d4-5a89-4f91-803e-79343fd4f41d" name="datability" url="http://192.168.10.85">
+      <webServer id="e9b6a1d4-5a89-4f91-803e-79343fd4f41d" name="datability (project level)" url="http://192.168.10.85">
         <fileTransfer host="192.168.10.85" port="22" rootFolder="/home/miyauchi" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="72c7e6ac-5383-408a-ade3-b3a40a8f1cec" name="merkatz" url="http://192.168.10.7">
+        <fileTransfer host="192.168.10.7" port="22" rootFolder="/home/miyauchi" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

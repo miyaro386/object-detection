@@ -31,6 +31,13 @@ Training data are collected from LSUN by filtering of this project.
 1. Edit and run `run.sh`
 
 
+## Result
+Refer to `filtering_resutls/.txt`.
+
+
+
+
+
     
     
 
